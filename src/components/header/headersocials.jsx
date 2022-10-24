@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const headersocials = () => {
   return (
@@ -15,12 +15,16 @@ const headersocials = () => {
         href="https://github.com/Organic-Species"
         target="_blank"
         rel="noreferrer"
-      ></a>
+      >
+        <FaGithubSquare />
+      </a>
       <a
         href="https://twitter.com/OrganicSpecies"
         target="_blank"
         rel="noreferrer"
-      ></a>
+      >
+        <FaTwitterSquare />
+      </a>
     </div>
   );
 };
