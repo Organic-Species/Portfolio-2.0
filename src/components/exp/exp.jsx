@@ -1,8 +1,8 @@
 import React from 'react';
 import './exp.css';
 
-const exp = () => {
-  return <div>exp</div>;
+const Experince = () => {
+  return <section id="experience">Experince</section>;
 };
 
-export default exp;
+export default Experince;
