@@ -1,8 +1,34 @@
-import React from 'react';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 import { BsEnvelope, BsLinkedin, BsTwitter } from 'react-icons/bs';
 import './contact.css';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_2k4fnsa',
+      'template_ceohq0s',
+      form.current,
+      'pvtqwFjtqq_7jSGmt'
+    );
+
+    e.target
+      .reset()
+
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -48,7 +74,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea
