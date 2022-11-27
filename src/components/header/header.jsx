@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../../assets/jarrel-full.png';
+import Logo from '../../assets/logo-main.svg';
 import CTA from './cta';
 import './header.css';
 import headersocials from './headersocials';
@@ -20,9 +20,11 @@ const header = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
+          <CTA />
         </div>
-        <CTA />
-        <headersocials />
+        <div className="header_image">
+          <img src={Logo} alt="Header Images" />
+        </div>
       </div>
     </header>
   );
