@@ -1,8 +1,7 @@
 import React from 'react';
-import Logo from '../../assets/logo-main.svg';
+import Logo from '../../assets/logo-main.png';
 import CTA from './cta';
 import './header.css';
-import headersocials from './headersocials';
 
 const header = () => {
   return (
@@ -12,18 +11,13 @@ const header = () => {
           <h1>Hello, I'm Jarrel Thomas</h1>
           <h3>Front-End Developer | Web Designer</h3>
           <p className="text-light">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            I am just starting on my coding journey as a devloper fueled by the
+            love for design and the discipline of digital art. In beginning this
+            journey I've aquired a wide range of experiences and knowledge in
+            project management, entrepreneurship, front-end developer, ux
+            design, music and color.
           </p>
           <CTA />
-        </div>
-        <div className="header_image">
-          <img src={Logo} alt="Header Images" />
         </div>
       </div>
     </header>

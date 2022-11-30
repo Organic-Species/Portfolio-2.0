@@ -3,7 +3,7 @@ import IMG2 from '../../assets/pexels-picjumbocom-196645 (1).jpg';
 import IMG3 from '../../assets/pexels-picjumbocom-196645 (2).jpg';
 import IMG4 from '../../assets/pexels-picjumbocom-196645 (3).jpg';
 import IMG5 from '../../assets/pexels-picjumbocom-196645 (4).jpg';
-import IMG1 from '../../assets/pexels-picjumbocom-196645.jpg';
+import IMG1 from '../../assets/rccoc-site.PNG';
 import './portfolio.css';
 
 // DO NOT USE IMAGES IN PRODUCTION
@@ -12,9 +12,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Just another website',
-    github: 'https://github.com',
-    demo: 'http://loftart.epizy.com/',
+    title: 'Riverside County Church of Christ',
+    github: 'https://github.com/Organic-Species/RCCOC-Wordpress',
+    demo: 'https://www.rccoc.org/',
   },
   {
     id: 2,

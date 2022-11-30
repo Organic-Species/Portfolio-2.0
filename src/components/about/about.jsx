@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <BsFillBarChartFill className="about__icon" />
               <h5>Experince</h5>
-              <small>2+ Years</small>
+              <small>1+ Years</small>
             </article>
             <article className="about__card">
               <BsCodeSlash className="about__icon" />
@@ -31,17 +31,16 @@ const About = () => {
             <article className="about__card">
               <BsFolderFill className="about__icon" />
               <h5>Projects</h5>
-              <small>10 Solid Projects</small>
+              <small>2 Solid Projects</small>
             </article>
           </div>
 
           <p>
-            Nulla commodo cupidatat excepteur ullamco esse. Dolore minim amet do
-            sit velit eu sint enim cillum. Eu cillum tempor consequat anim magna
-            elit veniam culpa qui. Do tempor ad qui incididunt sit amet fugiat
-            laboris esse laboris excepteur exercitation sint reprehenderit.
-            Aliquip voluptate pariatur consectetur deserunt eu elit eu irure
-            deserunt ex.
+            I have an immense passion and natural eye for design which continues
+            to inspire and delight others around me. My ideas always come from
+            the world I take in and I greatly enjoy studying and meditating on
+            the simple beauty of design. I'm a fast learner and can handle
+            taking on new skills and juggling a variety of projects at once.
           </p>
 
           <a href="#contact" className="btn btn-primary">
